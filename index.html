@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<style>
+
+
+	body {
+		width: 400px;
+		height: 350px;
+		border:2px solid gray;
+		margin: 0 auto;
+		border-radius: 5px;
+	}
+
+	input[type='text'] {
+		width: 400px;
+		height: 100px;
+		padding: 10px;
+		box-sizing:border-box;
+		font-size: 16px;
+	}
+
+	button {
+		float: left;
+		width: 100px;
+		height: 50px;
+		font-size: 14px;
+	}
+
+	.numbers {
+		width: 300px;
+		float: left;
+	}
+
+	.numbers button:last-child {
+		width: 200px;
+	}
+
+	.numbers button:nth-child(2) {
+		width: 200px;
+	}
+
+	.opers button {
+		background-color: #ffc107;
+	}
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<div><input type="text"></div>
+	<button id="clear">Clear</button>
+	<button id="back">&larr;</button>
+	<div class="numbers">		
+		<button>1</button>
+		<button>2</button>
+		<button>3</button>
+		<button>4</button>
+		<button>5</button>
+		<button>6</button>
+		<button>7</button>
+		<button>8</button>
+		<button>9</button>
+		<button>.</button>
+		<button>0</button>
+	</div>
+	<div class="opers">
+		<button>+</button>	
+		<button>-</button>	
+		<button>*</button>	
+		<button>/</button>
+	</div>
+	<button id="equal">=</button>
+
+	<!-- <script src="main.js"></script> -->
+	<script src="test.js"></script>
+</body>
+</html>
